@@ -11,7 +11,7 @@
 * MIT Licensed.
 */
 
-Module.register('MMM-NestRemoteThermostat', {
+Module.register('MMM-VenstarThermostat', {
 	defaults: {
 		thermostatId: null,
 		diameter: undefined,
@@ -37,7 +37,7 @@ Module.register('MMM-NestRemoteThermostat', {
 
 	getStyles() {
 		return [
-			this.file('NestThermostat.css')
+			this.file('MMM-VenstarThermostat.css')
 		];
 	},
 
