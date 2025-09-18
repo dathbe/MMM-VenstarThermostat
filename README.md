@@ -1,8 +1,8 @@
-# MMM-NestRemoteThermostat
+# MMM-VenstarThermostat
 
-This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/) to display a [Nest](https://store.google.com/ca/product/nest_learning_thermostat_3rd_gen) Like thermostat from a remote sensor that is capable to POST the measured values through HTTP protocol. It is designed to be generic. Useful when having Home Assistant and Magic Mirror.
+This is a module for the [MagicMirror²](https://magicmirror.builders/) to display information from a [Venstar](https://venstar.com/) thermostat using Venstar's local network API.
 
-For updates, please check the [CHANGELOG](https://github.com/sisimomo/MMM-NestRemoteThermostat/blob/master/CHANGELOG.md).
+For updates, please check the [CHANGELOG](https://github.com/dathbe/MMM-VenstarThermostat/blob/main/CHANGELOG.md).
 
 ## Features
 
