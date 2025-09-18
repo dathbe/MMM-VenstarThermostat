@@ -1,23 +1,37 @@
 {
-	"name": "MMM-NestRemoteThermostat",
-	"version": "1.1.0",
-	"description": "MagicMirror module that displays a Nest like Thermostat from a remote sensor.",
-	"main": "MMM-NestRemoteThermostat.js",
-	"author": "Simon Vallières",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/sisimomo/MMM-NestRemoteThermostat"
-	},
-	"keywords": [
-		"MagicMirror",
-		"module",
-		"temperature",
-		"nest",
-		"thermostat",
-		"RaspberryPi"
-	],
-	"dependencies": {
-		"body-parser": "^1.19.0"
-	}
+  "name": "mmm-venstarthermostat",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "A MagicMirror² module to display local Venstar thermostat information.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dathbe/MMM-VenstarThermostat.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "MagicMirror²",
+    "Smarthome",
+    "Venstar",
+	"thermostat",
+	"temperature"
+  ],
+  "author": "dathbe",
+  "contributors": [
+    "dathbe"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "node --run lint"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@stylistic/eslint-plugin": "^5.2.2",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0"
+  }
 }
