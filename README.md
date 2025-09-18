@@ -14,7 +14,7 @@ Suggestions are welcome.
 ```bash
 cd ~/MagicMirror/modules
 git clone https://github.com/dathbe/MMM-VenstarThermostat
-# cd ~/MagicMirror/modules/MMM-EarthquakeAlerts
+# cd ~/MagicMirror/modules/MMM-VenstarThermostat
 # npm install --omit=dev
 ```
 
