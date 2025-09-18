@@ -2,7 +2,32 @@
 
 This is a module for the [MagicMirror²](https://magicmirror.builders/) to display information from a [Venstar](https://venstar.com/) thermostat using Venstar's local network API.
 
-For updates, please check the [CHANGELOG](https://github.com/dathbe/MMM-VenstarThermostat/blob/main/CHANGELOG.md).
+For updates, please check the [CHANGELOG](CHANGELOG.md).
+
+Suggestions are welcome.
+
+[![Platform](https://img.shields.io/badge/platform-MagicMirror²-informational)](https://MagicMirror.builders)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.md)
+
+## Installation
+
+```bash
+cd ~/MagicMirror/modules
+git clone https://github.com/dathbe/MMM-VenstarThermostat
+# cd ~/MagicMirror/modules/MMM-EarthquakeAlerts
+# npm install --omit=dev
+```
+
+Dependencies:
+* ???
+
+## Updating
+
+```bash
+cd ~/MagicMirror/modules/MMM-VenstarThermostat
+git pull
+# npm install --omit=dev
+```
 
 ## Features
 
